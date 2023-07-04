@@ -145,7 +145,7 @@ export class HeaderNav extends Component {
             </div>
             <div className="header-right">
               <a
-                href="#"
+                href="/"
                 rel="noopener noreferrer"
                 style={{ textDecoration: 'none' }}
               >
@@ -166,8 +166,8 @@ export class HeaderNav extends Component {
                   </p>
                 </div>
               </a>
-              <Link
-                to={{ pathname: `/app` }}
+              <a
+                href='#/'
                 style={{
                   textDecoration: 'none'
                 }}
@@ -176,7 +176,7 @@ export class HeaderNav extends Component {
                   <img src={MobileApp} id="mobile-app" alt="Download our App" />
                   <p style={{ color: '#24a1b2' }}>Download App</p>
                 </div>
-              </Link>
+              </a>
             </div>
           </div>
         </div>
